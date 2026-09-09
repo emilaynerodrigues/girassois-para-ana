@@ -49,9 +49,11 @@ if (origem === "carta11") {
 
   emailjs
     .send("service_yd4mgxk", "template_4gzu3ls", {
-      name: "Ana",
-      message:
-        "A Ana abriu o site dos girassóis através da Carta 11 do Ana Noctis.",
+      message: `
+        A Ana abriu o site dos girassóis através da "Carta 11 - É o Chaol e o Girassol"
+        do Ana Noctis.
+      `,
+      footer: "O girassol foi encontrado.",
     })
     .then(() => {
       console.log("✅ Notificação enviada pelo EmailJS.");
