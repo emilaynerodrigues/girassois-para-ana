@@ -44,14 +44,12 @@ const origem = parametros.get("origem");
 
 console.log("Origem:", origem);
 
-if (origem === "carta11") {
-  console.log("Carta 11 detectada. Enviando notificação...");
+if (origem === "noctis") {
 
   emailjs
     .send("service_yd4mgxk", "template_4gzu3ls", {
       message: `
-        A Ana abriu o site dos girassóis através da "Carta 11 - É o Chaol e o Girassol"
-        do Ana Noctis.
+        A Ana abriu o site dos girassóis através do Ana Noctis.
       `,
       footer: "O girassol foi encontrado.",
     })
