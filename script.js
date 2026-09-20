@@ -1,11 +1,5 @@
 const frases = [
-  "Ana, você tem sido meu segundo girassol.",
-  "Todos os nossos momentos, mesmo os mais breves, me fazem sentir paz.",
-  "Todos os dias, assim como o girassol procura a luz...",
-  "... meus pensamentos sempre procuram você.",
-  "Mesmo nas diferenças, você tem sido minha luz, minha alegria...",
-  "É você quem tenho escolhido.",
-  "Você poderia ser minha?",
+  "Ana, fique bem.",
 ];
 
 const texto = document.getElementById("texto");
