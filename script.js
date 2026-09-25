@@ -1,5 +1,6 @@
 const frases = [
-  "Ana, fique bem.",
+  "Ana, continua sendo você.",
+  "Você é meu sonho e meu segundo girassol.",
 ];
 
 const texto = document.getElementById("texto");
